@@ -5,16 +5,32 @@ light blue: #1c5380
 */
 
 body {
+  background: url("../images/bgtile.png") repeat-x;
+  /*background: blue;*/
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
   margin: 0;
+  padding: 10px 0 10px 0;
 }
 
 .adjectives {
 	font-weight: bold;
 }
 
-#main {
-	background-image: src="images/frame.png";
+
+.main {
+	
+
+}
+.content {
+	background: url("../images/frame.png") no-repeat;
+	min-height: 204px;
+	padding: 40px;
+	width: 424px;
+	display: inline-block;
+	
+
+
 }
 
 .phone {
@@ -28,5 +44,14 @@ body {
 
 footer a{
 	text-decoration: none;
-	
+	padding: 5px;
+	font-weight: 800px;
+	display: inline-block;
+	color: #1c5380;
+
 }
+
+footer {
+	clear: both;
+}
+
