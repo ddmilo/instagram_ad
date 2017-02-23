@@ -12,3 +12,21 @@ body {
 .adjectives {
 	font-weight: bold;
 }
+
+#main {
+	background-image: src="images/frame.png";
+}
+
+.phone {
+	float: left;
+	padding: 15px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+footer a{
+	text-decoration: none;
+	
+}
