@@ -6,11 +6,12 @@ light blue: #1c5380
 
 body {
   background: url("../images/bgtile.png") repeat-x;
-  /*background: blue;*/
+  background-color: white;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 0;
   padding: 10px 0 10px 0;
+  
 }
 
 .adjectives {
@@ -19,6 +20,9 @@ body {
 
 
 .main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	
 
 }
@@ -27,31 +31,68 @@ body {
 	min-height: 204px;
 	padding: 40px;
 	width: 424px;
-	display: inline-block;
-	
+	display: inline-block;	
+}
 
+
+.headline {
+	margin: auto;
+
+}
+
+.description {
+	margin: 15px;
+}
+
+.badge {
 
 }
 
 .phone {
 	float: left;
 	padding: 15px;
+	display: flex;
+	align-self: flex-start;
 }
 
 .logo {
 	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	position: center;
 }
 
-footer a{
+
+.copyright {
+	align-self: flex-end;
+}
+
+
+/*footer p {
+	text-align: center;
+}*/
+
+
+footer a {
 	text-decoration: none;
 	padding: 5px;
-	font-weight: 800px;
+	font-weight: bold;
 	display: inline-block;
 	color: #1c5380;
+	text-transform: uppercase;
 
+
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 footer {
 	clear: both;
-}
+	/*display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: flex-end;
+}*/
 
